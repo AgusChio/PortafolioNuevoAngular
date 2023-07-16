@@ -17,3 +17,24 @@
     letter-spacing: 1.25px;
     text-transform: uppercase;
 }
+
+.contenedor-hamburguesa-descarga{
+    border: red sold 4px !important;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 767px) {
+    .contenedor-boton-curriculum {
+        width: 100%;
+    }
+
+    .boton-descarga-curriculum {
+        width: 60%;
+        margin: auto;
+    }
+}

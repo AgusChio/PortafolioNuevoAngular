@@ -1,0 +1,119 @@
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.h3-soy {
+    font-weight: 700;
+    line-height: 95px;
+}
+
+.contenedor-principal-presentacion {
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.contenedor-sociales {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+.parrafo-sobreMi {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+}
+
+.contenedor-sociales a {
+    text-decoration: none;
+    color: #0F0A0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: #42E2B8;
+    border: 2px solid #0F0A0A;
+    border-radius: 50%;
+}
+
+.contenedor-sociales a:hover {
+    background: #8884ff;
+    color: #0F0A0A;
+    transition: all 0.5s ease;
+}
+
+.contenedor-imagen{
+    width: 45%;
+}
+
+
+.imagenAC{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .contenedor-principal-presentacion {
+        flex-direction: column-reverse;
+        padding: 0 !important;
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .contenedor-saludo{
+        width: 100% !important;
+    }
+
+    .contenedor-sociales {
+        width: 100%;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .h3-soy {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .parrafo-sobreMi {
+        font-size: 18px;
+    }	
+
+    .contenedor-imagen{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenAC{
+        width: 90vw;
+        height: 45vh;
+    }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 991px) {
+}
